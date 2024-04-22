@@ -1,0 +1,35 @@
+<!--Tyler Ray Michael Egner-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      img {                     /*Calls my image to style it*/
+            position: absolute; /* Sets positon */
+            width: 300px;     /* Sized with width and height of 300 pixels */
+            height: 300px; 
+        }    
+        body{
+            background-color: lightslategray;
+        }
+        #startButton{
+            border-radius: 50px;
+            background-color: green;
+        }
+        #stopButton {
+            border-radius: 50px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <img id="square" src="cat.webp" alt="Square Image">    <!--Puts an image in my square using my source, kitty-->
+    
+    <div id="square"></div>       <!--This sets an element to make space separate from the document and names it "square"-->
+    <button id="startButton">Faster/Go</button> <!--Start button-->
+    <button id="stopButton">Slower/Stop</button>   <!--Stop button-->
+    <script src="move!.js"></script>                    <!--JS link-->
+</body>
+</html>
